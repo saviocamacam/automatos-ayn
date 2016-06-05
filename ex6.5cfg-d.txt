@@ -1,0 +1,10 @@
+a c b
+A S B C
+S
+B bB
+B b
+C bCc
+C bc
+S ABC
+A aAb
+A ab
