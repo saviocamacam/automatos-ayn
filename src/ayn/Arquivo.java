@@ -29,10 +29,13 @@ public class Arquivo {
 		linha = linhas.remove(0).split(" ");
 		grammar.setConjuntoSimboloNonTerminal(linha);
 		
+		linha = linhas.remove(0).split(" ");
+		grammar.setSimboloInicial(new Simbolo(linha[0].charAt(0)));
+		
 		grammar.atribuiProducao(linhas);
 		
 		
-		return null;
+		return grammar;
 	}
 
 }

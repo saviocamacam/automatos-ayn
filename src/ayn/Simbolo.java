@@ -20,7 +20,7 @@ public class Simbolo {
 		this.tipo = tipo;
 	}
 
-	public char getSimbolo() {
+	public Character getSimbolo() {
 		return simbolo;
 	}
 

@@ -2,7 +2,7 @@ package ayn;
 
 public enum TipoSimbolo {
 	TERMINAL("Terminal"),
-	NonTERMINAl("Nao Terminal");
+	NonTERMINAL("Nao Terminal");
 	
 	String nomeTipo;
 	TipoSimbolo(String nomeTipo) {
